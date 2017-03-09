@@ -43,7 +43,7 @@ public class Movement : MonoBehaviour
             relativeHorizontal = relativeHorizontal * .75f;
             relativeVertical = relativeVertical * .75f;
         }
-        movementDirection = new Vector3(relativeHorizontal, -.8f, relativeVertical); //assigns inputs in a vector
+        movementDirection = new Vector3(relativeHorizontal, -.2f, relativeVertical); //assigns inputs in a vector
 
         characterControl.Move(movementDirection); //uses the character controller to move
         // rotates the figure to simulate the rotated camera while tracking rotation in the transform
